@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{235F6092-B41E-4516-A311-9439BEC564B0}</ProjectGuid>
+    <RootNamespace>GameProject</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <ReferencePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ReferencePath)</ReferencePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\CBase.cpp" />
+    <ClCompile Include="Source\CBitmapFont.cpp" />
+    <ClCompile Include="Source\CGame.cpp" />
+    <ClCompile Include="Source\CSGD_ObjectManager.cpp" />
+    <ClCompile Include="Source\SGD_Math.cpp" />
+    <ClCompile Include="Source\WinMain.cpp" />
+    <ClCompile Include="Source\CSGD_Direct3D.cpp" />
+    <ClCompile Include="Source\CSGD_DirectInput.cpp" />
+    <ClCompile Include="Source\CSGD_DirectSound.cpp" />
+    <ClCompile Include="Source\CSGD_TextureManager.cpp" />
+    <ClCompile Include="Source\CSGD_WaveManager.cpp" />
+    <ClCompile Include="Source\CSGD_MessageSystem.cpp" />
+    <ClCompile Include="Source\CSGD_EventSystem.cpp" />
+    <ClCompile Include="Source\CreditsState.cpp" />
+    <ClCompile Include="Source\FinishedState.cpp" />
+    <ClCompile Include="Source\GamePlay.cpp" />
+    <ClCompile Include="Source\HighScore.cpp" />
+    <ClCompile Include="Source\HowToState.cpp" />
+    <ClCompile Include="Source\LevelTransition.cpp" />
+    <ClCompile Include="Source\MainMenu.cpp" />
+    <ClCompile Include="Source\Options.cpp" />
+    <ClCompile Include="Source\TallyMenu.cpp" />
+    <ClCompile Include="Source\BulletFire.cpp" />
+    <ClCompile Include="Source\BulletHook.cpp" />
+    <ClCompile Include="Source\BulletPaper.cpp" />
+    <ClCompile Include="Source\CBullet.cpp" />
+    <ClCompile Include="Source\CPlayerCharacter.cpp" />
+    <ClCompile Include="Source\EnemyBooger.cpp" />
+    <ClCompile Include="Source\EnemyBusiness.cpp" />
+    <ClCompile Include="Source\EnemyDemon.cpp" />
+    <ClCompile Include="Source\EnemyMeat.cpp" />
+    <ClCompile Include="Source\EnemyPsycrow.cpp" />
+    <ClCompile Include="Source\Powerup1up.cpp" />
+    <ClCompile Include="Source\PowerupHealth.cpp" />
+    <ClCompile Include="Source\PowerupRapidFire.cpp" />
+    <ClCompile Include="Source\PowerupThreeWay.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\CBase.h" />
+    <ClInclude Include="Source\CBitmapFont.h" />
+    <ClInclude Include="Source\CGame.h" />
+    <ClInclude Include="Source\IBaseInterface.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Source\SGD_Math.h" />
+    <ClInclude Include="Source\CSGD_Direct3D.h" />
+    <ClInclude Include="Source\CSGD_DirectInput.h" />
+    <ClInclude Include="Source\CSGD_DirectSound.h" />
+    <ClInclude Include="Source\CSGD_ObjectFactory.h" />
+    <ClInclude Include="Source\CSGD_ObjectManager.h" />
+    <ClInclude Include="Source\CSGD_TextureManager.h" />
+    <ClInclude Include="Source\CSGD_WaveManager.h" />
+    <ClInclude Include="Source\CBaseMessage.h" />
+    <ClInclude Include="Source\CCollisionMessage.h" />
+    <ClInclude Include="Source\CDestroyMessage.h" />
+    <ClInclude Include="Source\CSGD_MessageSystem.h" />
+    <ClInclude Include="Source\Enums.h" />
+    <ClInclude Include="Source\CEvent.h" />
+    <ClInclude Include="Source\CSGD_EventSystem.h" />
+    <ClInclude Include="Source\IListener.h" />
+    <ClInclude Include="Source\AbstractState.h" />
+    <ClInclude Include="Source\CreditsState.h" />
+    <ClInclude Include="Source\FinishedState.h" />
+    <ClInclude Include="Source\GamePlay.h" />
+    <ClInclude Include="Source\HighScore.h" />
+    <ClInclude Include="Source\HowToState.h" />
+    <ClInclude Include="Source\LevelTransition.h" />
+    <ClInclude Include="Source\MainMenu.h" />
+    <ClInclude Include="Source\Options.h" />
+    <ClInclude Include="Source\TallyMenu.h" />
+    <ClInclude Include="Source\BulletFire.h" />
+    <ClInclude Include="Source\BulletHook.h" />
+    <ClInclude Include="Source\BulletPaper.h" />
+    <ClInclude Include="Source\CBullet.h" />
+    <ClInclude Include="Source\CPlayerCharacter.h" />
+    <ClInclude Include="Source\EnemyBooger.h" />
+    <ClInclude Include="Source\EnemyBusiness.h" />
+    <ClInclude Include="Source\EnemyDemon.h" />
+    <ClInclude Include="Source\EnemyMeat.h" />
+    <ClInclude Include="Source\EnemyPsycrow.h" />
+    <ClInclude Include="Source\Powerup1up.h" />
+    <ClInclude Include="Source\PowerupHealth.h" />
+    <ClInclude Include="Source\PowerupRapidFire.h" />
+    <ClInclude Include="Source\PowerupThreeWay.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

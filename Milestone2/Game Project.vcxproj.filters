@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Wrappers">
+      <UniqueIdentifier>{b2d88b93-1f08-4acc-9819-eb1c1023af3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message System">
+      <UniqueIdentifier>{aae4ba3e-db33-4ea7-981f-6c0203a54d8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event System">
+      <UniqueIdentifier>{1134e6cb-4dee-4161-ac2b-0941b383b3a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{21a0815e-b3d3-4cf9-9a29-dc5d4bc7d62d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{86841745-bbbd-4865-b16b-fd498c77c328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Powerups">
+      <UniqueIdentifier>{644d0c79-9eb8-4a43-ac91-89ce91d3c481}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\CBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CBitmapFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CSGD_ObjectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SGD_Math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CSGD_Direct3D.cpp">
+      <Filter>Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CSGD_DirectInput.cpp">
+      <Filter>Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CSGD_DirectSound.cpp">
+      <Filter>Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CSGD_TextureManager.cpp">
+      <Filter>Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CSGD_WaveManager.cpp">
+      <Filter>Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CSGD_MessageSystem.cpp">
+      <Filter>Message System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CSGD_EventSystem.cpp">
+      <Filter>Event System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CreditsState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FinishedState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GamePlay.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HighScore.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HowToState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LevelTransition.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainMenu.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Options.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TallyMenu.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BulletFire.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BulletHook.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BulletPaper.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CBullet.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CPlayerCharacter.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyBooger.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyBusiness.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyDemon.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyMeat.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyPsycrow.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Powerup1up.cpp">
+      <Filter>Powerups</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PowerupHealth.cpp">
+      <Filter>Powerups</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PowerupRapidFire.cpp">
+      <Filter>Powerups</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PowerupThreeWay.cpp">
+      <Filter>Powerups</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\CBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CBitmapFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IBaseInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SGD_Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CSGD_Direct3D.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CSGD_DirectInput.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CSGD_DirectSound.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CSGD_ObjectFactory.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CSGD_ObjectManager.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CSGD_TextureManager.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CSGD_WaveManager.h">
+      <Filter>Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CBaseMessage.h">
+      <Filter>Message System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CCollisionMessage.h">
+      <Filter>Message System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CDestroyMessage.h">
+      <Filter>Message System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CSGD_MessageSystem.h">
+      <Filter>Message System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enums.h">
+      <Filter>Message System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CEvent.h">
+      <Filter>Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CSGD_EventSystem.h">
+      <Filter>Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IListener.h">
+      <Filter>Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AbstractState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CreditsState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FinishedState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GamePlay.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HighScore.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HowToState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LevelTransition.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainMenu.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Options.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TallyMenu.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BulletFire.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BulletHook.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BulletPaper.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CBullet.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CPlayerCharacter.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemyBooger.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemyBusiness.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemyDemon.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemyMeat.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemyPsycrow.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Powerup1up.h">
+      <Filter>Powerups</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PowerupHealth.h">
+      <Filter>Powerups</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PowerupRapidFire.h">
+      <Filter>Powerups</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PowerupThreeWay.h">
+      <Filter>Powerups</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
