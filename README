@@ -1,1 +1,3 @@
 While attending Full Sail University, I was given 2 weeks to code a game on my own. The name of the class is Structure of Game Design. This was done in C++ using many external dependencies such as DirectX. There are several DirectX wrappers that were not written by me, but the comments section in those source files give credit where credit is due. The code I wrote focused mainly on core gameplay. Sure, it's a little janky, but I'm very proud of the results. Every feature I wanted to implement made the cut with the exception of a working high score table, as I ran out of time.
+
+Please note, if you want the code to compile, you need to have a directX 9.0+ SDK. You then need to specify the includes and libraries in the project settings.
